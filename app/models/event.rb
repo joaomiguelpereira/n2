@@ -1,4 +1,5 @@
 class Event < ActiveRecord::Base
+  #just to test
   acts_as_voteable
   acts_as_taggable_on :tags, :sections
   acts_as_featured_item
